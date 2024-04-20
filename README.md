@@ -3,6 +3,7 @@ DevOps Workshop
 
 https://www.baeldung.com/ops/kubernetes-kind
 https://iamunnip.medium.com/kind-local-kubernetes-cluster-part-6-775397fa060d
+https://iamunnip.medium.com/kind-local-kubernetes-cluster-part-5-25844d448926
 
 # Tasks:
 
@@ -67,6 +68,12 @@ https://iamunnip.medium.com/kind-local-kubernetes-cluster-part-6-775397fa060d
     kubectl port-forward  myapp-ff99498bf-q57cb 15684:8080 -n dev
     
     kind delete clusters --all
+
+    kubectl cluster-info --context kind-dev
+    kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml
+
+    kubectl -n ingress-nginx get pods --selector=app.kubernetes.io/component=controller
+
 
 04. Deploy app using helm chart
     https://wkrzywiec.medium.com/how-to-deploy-application-on-kubernetes-with-helm-39f545ad33b8
