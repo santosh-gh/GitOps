@@ -12,19 +12,6 @@
 
     kubectl get svc
 
+    kind create cluster --config .\k8s\declarative\kind.yaml
 
-
-    apiVersion: v1
-kind: Service
-metadata:
-   name: bb-entrypoint
-   namespace: default
-spec:
-   type: NodePort
-   selector:
-      bb: web
-   ports:
-      - port: 3000
-        targetPort: 3000
-        nodePort: 30001
-
+    kubectl cluster-info --context kind-dev

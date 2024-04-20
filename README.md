@@ -2,6 +2,7 @@
 DevOps Workshop
 
 https://www.baeldung.com/ops/kubernetes-kind
+https://iamunnip.medium.com/kind-local-kubernetes-cluster-part-6-775397fa060d
 
 # Tasks:
 
@@ -24,6 +25,13 @@ https://www.baeldung.com/ops/kubernetes-kind
     docker push e880613/web-api:v1
 
 03. Setup Cluster Infrastructure
+
+    #Windows 
+    Install Chocolatey first: https://chocolatey.org/install 
+    choco install kind
+    choco install kubernetes-cli
+    kubectl version --client
+
     kind version
     kind get clusters
     kind create cluster --name my-cluster
@@ -59,3 +67,18 @@ https://www.baeldung.com/ops/kubernetes-kind
     kubectl port-forward  myapp-ff99498bf-q57cb 15684:8080 -n dev
     
     kind delete clusters --all
+
+04. Deploy app using helm chart
+    https://wkrzywiec.medium.com/how-to-deploy-application-on-kubernetes-with-helm-39f545ad33b8
+    # Installation
+
+    - MacOS
+    brew install helm
+
+    - Windows
+    choco install kubernetes-helm
+
+
+    helm upgrade --install web-app . 
+
+    helm install phoenix-chart phoenixnap/ --values phoenixnap/values.yaml
