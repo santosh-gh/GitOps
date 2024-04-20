@@ -1,0 +1,8 @@
+apiVersion: apps/v1
+kind: Pod
+metadata:
+  name: web-api
+spec:
+  containers:
+    - name: web-api
+      image: e880613/web-api:v1
