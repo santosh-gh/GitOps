@@ -66,6 +66,9 @@ https://iamunnip.medium.com/kind-local-kubernetes-cluster-part-5-25844d448926
 
     # Forward a local port to a port on the Pod
     kubectl port-forward  myapp-ff99498bf-q57cb 15684:8080 -n dev
+
+    kubectl port-forward svc/web-app-service --address 0.0.0.0 8080:8080
+
     
     kind delete clusters --all
 
@@ -89,3 +92,8 @@ https://iamunnip.medium.com/kind-local-kubernetes-cluster-part-5-25844d448926
     helm upgrade --install web-app . 
 
     helm install phoenix-chart phoenixnap/ --values phoenixnap/values.yaml
+
+    kubectl run nginx --image=e880613/web-api:v1 --port=8080 --dry-run=client -o yaml > webapp.yml
+
+05. Kustomization
+    https://www.densify.com/kubernetes-tools/kustomize/

@@ -1,3 +1,8 @@
+https://www.baeldung.com/ops/kubernetes-helm
+https://www.freecodecamp.org/news/what-is-a-helm-chart-tutorial-for-kubernetes-beginners/
+
+
+
 choco install kubernetes-helm
 helm version
 

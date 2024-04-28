@@ -1,15 +1,15 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: web-app-ingress
+  name: test-ingress
 spec:
   rules:
   - http:
       paths:
       - pathType: Prefix
-        path: "/"
+        path: "/app"
         backend:
           service:
-            name: web-app-service
+            name: test-service
             port:
-              number: 11684
+              number: 5678
