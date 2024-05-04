@@ -5,6 +5,53 @@ https://www.baeldung.com/ops/kubernetes-kind
 https://iamunnip.medium.com/kind-local-kubernetes-cluster-part-6-775397fa060d
 https://iamunnip.medium.com/kind-local-kubernetes-cluster-part-5-25844d448926
 
+
+
+https://www.digitalocean.com/community/developer-center/implementing-gitops-using-flux-cd
+
+https://blog.zelarsoft.com/using-gitops-with-flux-5723b7724f2f
+
+https://medium.com/@selvamraju007/fluxcd-introduction-and-installation-demo-fb9fe0cb7555
+
+https://medium.com/@david.franko1998/kubernetes-gitops-with-flux-cd-on-github-c867b1decf9f
+
+https://www.techtarget.com/searchitoperations/tutorial/Try-out-this-GitOps-tutorial-with-Flux-and-Kubernetes
+
+Automating Image Updates with FluxCD on AKS
+-------------------------------------------
+https://paulyu.dev/article/automating-image-updates-with-fluxcd-on-aks/
+
+Git going with GitOps on AKS: A Step-by-Step Guide using FluxCD AKS Extension
+-----------------------------------------------------------------------------
+https://dev.to/azure/git-going-with-gitops-on-aks-a-step-by-step-guide-using-fluxcd-aks-extension-499m
+
+
+https://neo4j.com/developer-blog/set-up-gitops-full-stack-app-with-flux-helm-kubernetes/?utm_source=Google&utm_medium=PaidSearch&utm_campaign=Evergreen&utm_content=EMEA-Search-SEMCE-DSA-None-SEM-SEM-NonABM&utm_term=&utm_adgroup=DSA&gad_source=1&gclid=CjwKCAjw5v2wBhBrEiwAXDDoJR6LGVzsjxbe1TbsW2qYYiI3JAaIoJXVEk8qil_4uHhmh2x7_uUaNRoCFqYQAvD_BwE
+
+https://fluxcd.io/flux/concepts/
+
+https://yodamad.hashnode.dev/build-and-publish-an-helm-chart-deploy-it-with-flux
+
+https://medium.com/swlh/deploying-applications-in-kubernetes-using-flux-a9d171b11917
+
+https://geek-cookbook.funkypenguin.co.nz/kubernetes/deployment/flux/operate/
+https://alicegg.tech/2020/11/09/helm
+
+
+The FASTEST way to deploy apps to Kubernetes - GitOps with FLUX
+--------------------------------------------------------------
+https://technotim.live/posts/flux-devops-gitops/
+
+Using Flux in Kubernetes
+---------------------------
+https://siebjee.nl/posts/using-flux-in-kubernetes/
+
+Kubernetes GitOps with Flux
+----------------------------
+https://cloudtechnologyexperts.com/blog/kubernetes/kubernetes-gitOps-with-flux
+
+
+
 # Tasks:
 
 01. Containerize Application 
